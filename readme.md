@@ -61,7 +61,7 @@ PORT specified in your .env file)
 - **URL:** `http://localhost:3000/movies/search/{movietitle}`
 - **Example:** `http://localhost:3000/movies/search/inception`
 - **Response:** JSON object containing movie search results
-![Search Endpoint](snapshots/Endpoint-1.jpg)
+![Search Endpoint](./snapshots/Endpoint-1.jpg)
 
 ### 2. Get Movie Data by IMDb ID
 - **Method:** GET
