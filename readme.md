@@ -68,7 +68,7 @@ PORT specified in your .env file)
 - **URL:** `http://localhost:3000/movies/data/{IMDB_ID}`
 - **Example:** `http://localhost:3000/movies/data/tt1375666`
 - **Response:** JSON object containing detailed movie information
-![Data Endpoint](./snapshots/Endpoint-2.jpg)
+![Data Endpoint](./snapshots/EndPoint-2.JPG)
 
 ### 3. Get Poster by IMDb ID
 - **Method:** GET
@@ -76,7 +76,7 @@ PORT specified in your .env file)
 - **Example:** `http://localhost:3000/posters/tt1375666`
 - **Response:** JPEG image file
 - **Note:** Returns locally stored poster if available,otherwise fetches from API
-![Poster Endpoint](./snapshots/Endpoint-3.jpg)
+![Poster Endpoint](./snapshots/EndPoint-3.JPG)
 
 ### 4. Add a Poster by IMDb ID
 - **Method:** POST
@@ -85,7 +85,7 @@ PORT specified in your .env file)
 - **Body:** Form-data with image file
 - **Response:** JSON confirmation message
 - Uploaded image will be saved in `posters/` directory with the IMDb ID as the filename.
-![Add AlternativePoster Endpoint](./snapshots/Endpoint-4.jpg)
+![Add AlternativePoster Endpoint](./snapshots/EndPoint-4.JPG)
 
 ## Testing with Postman
 
