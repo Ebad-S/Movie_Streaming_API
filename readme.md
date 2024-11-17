@@ -27,8 +27,7 @@ A Node.js API that provides movie information and poster management using the St
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/Ebad-S/Movie_Streaming_API.git
    ```
 
 2. Install dependencies:
